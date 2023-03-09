@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcul kCal</title>
+</head>
+<body>
+
+    <h2>Tableau des calories</h2>
+
+    <label for="food-select">Choisir un ingrédient:</label>
+    <select id="food-select">
+        <option value="">--Choisissez un ingrédient--</option>
+
+        <option value="abricot">Abricot</option>
+        <option value="compote-de-pommes">Compote de pommes</option>
+        <option value="viande-hachee">Viande hachée</option>
+        <option value="chaource">Chaource</option>
+        <option value="oranges-sanguines">Oranges sanguines</option>
+    </select>
+    <button  onclick="ajoutIngredient()">Ajouter</button>
+
+    <p id="affichage"></p>
+
+    <hr>
+    <p id="qt-total"></p>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
